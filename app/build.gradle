@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'am.abaj.soundpro'
+    compileSdk 35
+    defaultConfig { applicationId 'am.abaj.soundpro'; minSdk 26; targetSdk 28; versionCode 5; versionName '0.1.4' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
